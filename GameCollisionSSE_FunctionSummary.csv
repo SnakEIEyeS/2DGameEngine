@@ -1,0 +1,452 @@
+Function Name,Number of Calls,Elapsed Inclusive Time %,Elapsed Exclusive Time %,Avg Elapsed Inclusive Time,Avg Elapsed Exclusive Time,Module Name
+SleepConditionVariableCS,3,66.52,66.52,"13,622.04","13,622.04",KERNELBASE.dll
+[dxgi.dll],"108,913",13.5,13.5,0.08,0.08,dxgi.dll
+operator new,"871,402",2.13,2.13,0,0,Game.exe
+Engine::Physics::CollisionRunSSE,"108,913",9.99,1.89,0.06,0.01,Game.exe
+Engine::Collision::CollisionDetectionSSE,"108,913",2.1,1.84,0.01,0.01,Game.exe
+WeakPtr<GameObject>::Acquire,"2,796,681",1.81,1.81,0,0,Game.exe
+Engine::Rendering::Present,"108,913",18.98,1.74,0.11,0.01,Game.exe
+"std::vector<Engine::JobSystem::JobRunnerData * __ptr64,std::allocator<Engine::JobSystem::JobRunnerData * __ptr64> >::_Reallocate","217,828",2.03,1.27,0.01,0,Game.exe
+memcpy,"544,596",1.15,1.15,0,0,VCRUNTIME140.dll
+"std::vector<PhysicsInfo * __ptr64,std::allocator<PhysicsInfo * __ptr64> >::vector<PhysicsInfo * __ptr64,std::allocator<PhysicsInfo * __ptr64> >","326,759",3.3,1.11,0.01,0,Game.exe
+Engine::Collision::ColliderSSE::ColliderSSE,"217,826",2.71,0.87,0.01,0,Game.exe
+GLib::Sprites::RenderSprite,"217,826",1.89,0.83,0.01,0,Game.exe
+[d3d11.dll],"217,826",0.83,0.83,0,0,d3d11.dll
+wWinMainCRTStartup,1,33.48,0.6,"20,565.71",368.41,Game.exe
+Engine::Math::MatrixSSE::Determinant,"326,741",0.59,0.59,0,0,Game.exe
+wWinMain,1,32.88,0.57,"20,197.22",350.92,Game.exe
+Engine::Math::MatrixSSE::GetTranspose,"762,399",0.47,0.47,0,0,Game.exe
+"std::vector<Engine::JobSystem::JobRunnerData * __ptr64,std::allocator<Engine::JobSystem::JobRunnerData * __ptr64> >::push_back","217,828",2.44,0.4,0.01,0,Game.exe
+NtdllDefWindowProc_W,"1,358",0.36,0.36,0.16,0.16,ntdll.dll
+std::_Wrap_alloc<std::allocator<PhysicsInfo * __ptr64> >::allocate,"326,764",1.05,0.26,0,0,Game.exe
+Engine::Math::MatrixSSE::GetInverse,"326,740",0.77,0.18,0,0,Game.exe
+Engine::Physics::Update,"108,913",12.7,0.17,0.07,0,Game.exe
+[d3d11.dll],"217,830",0.1,0.1,0,0,d3d11.dll
+[dxgi.dll],1,0.07,0.07,41.15,41.15,dxgi.dll
+PeekMessageW,"109,418",0.08,0.07,0,0,USER32.dll
+[d3d11.dll],2,0.06,0.06,19.25,19.25,d3d11.dll
+__security_check_cookie,"1,200,535",0.06,0.06,0,0,Game.exe
+D3D11CreateDevice,1,0.06,0.06,36.05,36.05,d3d11.dll
+operator delete,"326,769",0.05,0.05,0,0,Game.exe
+PhysicsInfo::UpdateObject,"217,826",1.05,0.04,0,0,Game.exe
+Engine::Math::MatrixSSE::operator*,"326,740",0.5,0.04,0,0,Game.exe
+[d3d11.dll],"108,913",0.04,0.04,0,0,d3d11.dll
+[d3d11.dll],"217,826",0.04,0.04,0,0,d3d11.dll
+[d3d11.dll],"108,913",0.03,0.03,0,0,d3d11.dll
+[d3d11.dll],"108,913",0.03,0.03,0,0,d3d11.dll
+[d3d11.dll],"217,826",0.03,0.03,0,0,d3d11.dll
+[d3d11.dll],"217,826",0.03,0.03,0,0,d3d11.dll
+[d3d11.dll],"108,913",0.03,0.03,0,0,d3d11.dll
+PhysicsInfo::getGameObject,"871,418",0.02,0.02,0,0,Game.exe
+[d3d11.dll],"108,913",0.02,0.02,0,0,d3d11.dll
+std::_Wrap_alloc<std::allocator<void * __ptr64> >::deallocate,"326,766",0.07,0.02,0,0,Game.exe
+GLib::Sprites::BeginRendering,"108,913",0.13,0.01,0,0,Game.exe
+[d3d11.dll],"108,913",0.01,0.01,0,0,d3d11.dll
+[d3d11.dll],"108,913",0.01,0.01,0,0,d3d11.dll
+DirectX::XMScalarSinCos,"217,826",0.01,0.01,0,0,Game.exe
+[d3d11.dll],"108,913",0.01,0.01,0,0,d3d11.dll
+GLib::DrawResourcesBuffer::GetDeviceBuffer,"108,913",0.01,0.01,0,0,Game.exe
+DirectX::XMMatrixMultiplyTranspose,"217,826",0.01,0.01,0,0,Game.exe
+DirectX::XMMatrixMultiply,"217,826",0.01,0.01,0,0,Game.exe
+CreateWindowExW,1,0,0,2.84,2.29,USER32.dll
+ShowWindow,1,0.02,0,10.68,2.08,USER32.dll
+AdjustWindowRect,1,0,0,0.75,0.75,USER32.dll
+[d3d11.dll],3,0,0,0.24,0.24,d3d11.dll
+DispatchMessageW,505,0.33,0,0.4,0,USER32.dll
+GetRawInputData,104,0,0,0,0,USER32.dll
+fread,3,0,0,0.12,0.12,ucrtbase.dll
+[d3d11.dll],3,0,0,0.11,0.11,d3d11.dll
+WaitForMultipleObjects,1,0,0,0.29,0.29,KERNEL32.DLL
+PostQuitMessage,1,0,0,0.24,0.24,USER32.dll
+[d3d11.dll],1,0,0,0.18,0.18,d3d11.dll
+GLib::WndProc,"1,360",0.36,0,0.16,0,Game.exe
+[d3d11.dll],1,0,0,0.14,0.14,d3d11.dll
+fopen_s,3,0,0,0.04,0.04,ucrtbase.dll
+CreateSprite,1,0,0,0.82,0.06,Game.exe
+realloc,337,0,0,0,0,ucrtbase.dll
+[d3d11.dll],1,0,0,0.05,0.05,d3d11.dll
+llex,266,0,0,0,0,Game.exe
+BeginPaint,1,0,0,0.05,0.05,USER32.dll
+luaH_newkey,374,0,0,0,0,Game.exe
+TranslateAcceleratorW,505,0,0,0,0,USER32.dll
+pre_c_initialization,1,0,0,0.04,0.04,Game.exe
+CreateThread,2,0,0,0.02,0.02,KERNEL32.DLL
+RegisterRawInputDevices,1,0,0,0.03,0.03,USER32.dll
+GLib::Initialize,1,0.15,0,92.64,0.03,Game.exe
+TranslateMessage,505,0,0,0,0,USER32.dll
+internshrstr,240,0,0,0,0,Game.exe
+luaM_realloc_,675,0,0,0,0,Game.exe
+[d3d11.dll],1,0,0,0.03,0.03,d3d11.dll
+[d3d11.dll],2,0,0,0.01,0.01,d3d11.dll
+RegisterClassExW,1,0,0,0.02,0.02,USER32.dll
+free,348,0,0,0,0,ucrtbase.dll
+fclose,3,0,0,0.01,0.01,ucrtbase.dll
+[dxgi.dll],1,0,0,0.02,0.02,dxgi.dll
+l_alloc,685,0,0,0,0,Game.exe
+LoadIconW,2,0,0,0.01,0.01,USER32.dll
+lua_setfield,145,0,0,0,0,Game.exe
+pre_cpp_initialization,1,0,0,0.02,0.02,Game.exe
+EndPaint,1,0,0,0.02,0.02,USER32.dll
+GLib::Input::Service,52,0,0,0.01,0,Game.exe
+luaS_new,302,0,0,0,0,Game.exe
+lua_newstate,1,0,0,0.08,0.02,Game.exe
+Engine::InputSystem::ButtonChangeCallback,38,0,0,0,0,Game.exe
+[d3d11.dll],1,0,0,0.01,0.01,d3d11.dll
+getenv,4,0,0,0,0,ucrtbase.dll
+mainfunc,1,0,0,0.22,0.01,Game.exe
+[d3d11.dll],1,0,0,0.01,0.01,d3d11.dll
+auxsetstr,188,0,0,0,0,Game.exe
+ftell,3,0,0,0,0,ucrtbase.dll
+luaopen_table,1,0,0,0.02,0.01,Game.exe
+fseek,6,0,0,0,0,ucrtbase.dll
+mainposition,468,0,0,0,0,Game.exe
+Engine::Collision::Collider::Collider,10,0,0,0,0,Game.exe
+[d3d11.dll],3,0,0,0,0,d3d11.dll
+init_registry,1,0,0,0.02,0.01,Game.exe
+CreateTextureFromDDS,4,0,0,0.29,0,Game.exe
+[d3d11.dll],1,0,0,0.01,0.01,d3d11.dll
+strtod,12,0,0,0,0,ucrtbase.dll
+Engine::Collision::CollisionDetection,9,0,0,0,0,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+freeobj,220,0,0,0,0,Game.exe
+luaopen_package,1,0,0,0.06,0.01,Game.exe
+"Engine::Delegate<unsigned int,bool>::method_stub<PlayerController,&PlayerController::HandleInput>",38,0,0,0,0,Game.exe
+SmartPtr_UnitTest,1,0,0,0.01,0.01,Game.exe
+luaV_execute,45,0,0,0.01,0,Game.exe
+reallymarkobject,317,0,0,0,0,Game.exe
+luaL_getsubtable,12,0,0,0,0,Game.exe
+luaH_resize,48,0,0,0,0,Game.exe
+f_gc,3,0,0,0,0,Game.exe
+"std::_Find_if_unchecked<PhysicsInfo * __ptr64 * __ptr64,<lambda_8b92c09657b56018ede77149b75d5bbc> >",38,0,0,0,0,Game.exe
+luaopen_base,1,0,0,0.04,0.01,Game.exe
+luaopen_io,1,0,0,0.04,0.01,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+f_luaopen,1,0,0,0.05,0.01,Game.exe
+Engine::JobSystem::CreateQueue,1,0,0,0.05,0.01,Game.exe
+exprstat,1,0,0,0.14,0.01,Game.exe
+singlevar,1,0,0,0.01,0.01,Game.exe
+luaO_str2num,16,0,0,0,0,Game.exe
+luaV_finishset,190,0,0,0,0,Game.exe
+SIMDVecMtx_UnitTest,1,0,0,0.01,0.01,Game.exe
+__scrt_common_main_seh,1,32.88,0,"20,197.30",0.01,Game.exe
+luaC_freeallobjects,1,0,0,0.08,0.01,Game.exe
+auxgetstr,36,0,0,0,0,Game.exe
+PlayerController::HandleInput,38,0,0,0,0,Game.exe
+luaD_rawrunprotected,7,0,0,0.05,0,Game.exe
+[d3d11.dll],1,0,0,0.01,0.01,d3d11.dll
+luaH_get,237,0,0,0,0,Game.exe
+GLib::CreateDevice,1,0.13,0,77.51,0.01,Game.exe
+singlestep,22,0,0,0,0,Game.exe
+frexp,12,0,0,0,0,ucrtbase.dll
+luaL_loadbufferx,1,0,0,0.23,0.01,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+luaL_requiref,10,0,0,0.03,0,Game.exe
+Collision_UnitTest,1,0,0,0.03,0.01,Game.exe
+luaD_call,15,0,0,0.02,0,Game.exe
+_time64,1,0,0,0.01,0.01,ucrtbase.dll
+GLib::Sprites::Initialize,1,0,0,0.74,0,Game.exe
+LoadGOFileJob::Run,1,0,0,0.76,0,Game.exe
+"std::vector<PhysicsInfo * __ptr64,std::allocator<PhysicsInfo * __ptr64> >::_Reserve",5,0,0,0,0,Game.exe
+getgeneric,14,0,0,0,0,Game.exe
+_onexit,2,0,0,0,0,Game.exe
+subexpr,33,0,0,0.11,0,Game.exe
+luaL_gsub,2,0,0,0.01,0,Game.exe
+luaopen_string,1,0,0,0.02,0,Game.exe
+setpath,2,0,0,0.02,0,Game.exe
+GLib::Input::ResizeReadBuffer,52,0,0,0,0,Game.exe
+Engine::JobSystem::AddRunner,2,0,0,0.02,0,Game.exe
+luaopen_debug,1,0,0,0.01,0,Game.exe
+gctm,1,0,0,0,0,Game.exe
+Engine::Physics::ApplyForce,19,0,0,0,0,Game.exe
+[d3d11.dll],7,0,0,0,0,d3d11.dll
+luaopen_os,1,0,0,0.02,0,Game.exe
+__scrt_initialize_default_local_stdio_options,1,0,0,0,0,Game.exe
+GLib::_CreateWindow,1,0.01,0,3.65,0,Game.exe
+Engine::JobSystem::SharedJobQueue::SharedJobQueue,1,0,0,0,0,Game.exe
+_set_new_mode,1,0,0,0,0,Game.exe
+__chkstk,2,0,0,0,0,Game.exe
+singlestep,2,0,0,0,0,Game.exe
+f_parser,1,0,0,0.23,0,Game.exe
+Engine::Math::Matrix::operator*,24,0,0,0,0,Game.exe
+luaY_parser,1,0,0,0.22,0,Game.exe
+createclibstable,1,0,0,0.01,0,Game.exe
+LoadCursorW,1,0,0,0,0,USER32.dll
+luaH_getstr,224,0,0,0,0,Game.exe
+exp2reg,23,0,0,0,0,Game.exe
+CreateGameObject,1,0,0,0,0,Game.exe
+freeobj,262,0,0,0,0,Game.exe
+primaryexp,1,0,0,0.01,0,Game.exe
+mainposition,508,0,0,0,0,Game.exe
+assignment,1,0,0,0.12,0,Game.exe
+__scrt_initialize_crt,1,0,0,0,0,Game.exe
+RtlWakeAllConditionVariable,1,0,0,0,0,ntdll.dll
+strpbrk,24,0,0,0,0,ucrtbase.dll
+ProcessGOFileJob::Run,1,0,0,0.76,0,Game.exe
+lua_pushcclosure,143,0,0,0,0,Game.exe
+rehash,25,0,0,0,0,Game.exe
+Engine::Physics::RemoveForces,19,0,0,0,0,Game.exe
+Engine::JobSystem::Shutdown,1,0,0,0.3,0,Game.exe
+luaK_code,44,0,0,0,0,Game.exe
+addk,35,0,0,0,0,Game.exe
+freeobj,28,0,0,0,0,Game.exe
+recfield,14,0,0,0.01,0,Game.exe
+CreateD3DResources,2,0,0,0.26,0,Game.exe
+luaC_step,5,0,0,0.01,0,Game.exe
+luaK_exp2RK,30,0,0,0,0,Game.exe
+luaH_next,16,0,0,0,0,Game.exe
+setnodevector,48,0,0,0,0,Game.exe
+luaV_tointeger,26,0,0,0,0,Game.exe
+ResumeThread,2,0,0,0,0,KERNEL32.DLL
+traversestrongtable,21,0,0,0,0,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+RtlWakeConditionVariable,2,0,0,0,0,ntdll.dll
+luaV_equalobj,52,0,0,0,0,Game.exe
+sweepstep,7,0,0,0,0,Game.exe
+GLib::Sprites::CreateSprite,2,0,0,0.05,0,Game.exe
+constructor,9,0,0,0.11,0,Game.exe
+luaK_exp2nextreg,23,0,0,0,0,Game.exe
+luaD_precall,15,0,0,0.02,0,Game.exe
+read_string,7,0,0,0,0,Game.exe
+mainposition,13,0,0,0,0,Game.exe
+Engine::Rendering::ReleaseSprites,1,0,0,0,0,Game.exe
+GetModuleFileNameA,2,0,0,0,0,KERNEL32.DLL
+luaS_resize,2,0,0,0,0,Game.exe
+read_numeral,16,0,0,0,0,Game.exe
+GLib::Sprites::Shutdown,1,0,0,0.02,0,Game.exe
+[d3d11.dll],6,0,0,0,0,d3d11.dll
+simpleexp,29,0,0,0.11,0,Game.exe
+getbinopr,65,0,0,0,0,Game.exe
+luaL_testudata,9,0,0,0,0,Game.exe
+traversetable,21,0,0,0,0,Game.exe
+luaopen_math,1,0,0,0.02,0,Game.exe
+GLib::ReleaseDevice,1,0.06,0,38.53,0,Game.exe
+propagatemark,30,0,0,0,0,Game.exe
+numarith,8,0,0,0,0,Game.exe
+luaX_init,1,0,0,0.01,0,Game.exe
+Engine::JobSystem::SharedJobQueue::GetWhenAvailable,5,66.52,0,"8,173.22",0,Game.exe
+luaD_pcall,4,0,0,0,0,Game.exe
+luaopen_coroutine,1,0,0,0.01,0,Game.exe
+Engine::File::CreateSprite,1,0,0,0.66,0,Game.exe
+Engine::Math::Matrix::GetInverse,10,0,0,0,0,Game.exe
+luaS_newlstr,22,0,0,0,0,Game.exe
+Engine::JobSystem::JobRunner,2,66.52,0,"20,433.82",0,Game.exe
+atomic,2,0,0,0,0,Game.exe
+[dxgi.dll],2,0,0,0,0,dxgi.dll
+_mbsdup,4,0,0,0,0,ucrtbase.dll
+luaD_protectedparser,1,0,0,0.23,0,Game.exe
+singlestep,37,0,0,0,0,Game.exe
+luaX_newstring,19,0,0,0,0,Game.exe
+luaK_dischargevars,85,0,0,0,0,Game.exe
+MultiByteToWideChar,1,0,0,0,0,KERNEL32.DLL
+luaV_tonumber_,8,0,0,0,0,Game.exe
+GLib::DrawResourcesBuffer::Create,2,0,0,0.13,0,Game.exe
+[dxgi.dll],1,0,0,0,0,dxgi.dll
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+"std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign",4,0,0,0,0,Game.exe
+PlayerController::`scalar deleting destructor',1,0,0,0,0,Game.exe
+Engine::File::LoadFile,2,0,0,0.12,0,Game.exe
+RtlEnterCriticalSection,9,0,0,0,0,ntdll.dll
+GetClientRect,1,0,0,0,0,USER32.dll
+lua_getfield,12,0,0,0,0,Game.exe
+"std::deque<Engine::JobSystem::IJob * __ptr64,std::allocator<Engine::JobSystem::IJob * __ptr64> >::_Tidy",1,0,0,0,0,Game.exe
+[dxgi.dll],1,0,0,0,0,dxgi.dll
+strstr,11,0,0,0,0,VCRUNTIME140.dll
+GCTM,4,0,0,0,0,Game.exe
+mainposition,12,0,0,0,0,Game.exe
+RtlLeaveCriticalSection,9,0,0,0,0,ntdll.dll
+numusearray,25,0,0,0,0,Game.exe
+luaK_codek,14,0,0,0,0,Game.exe
+Engine::ControllerStore::ShutDown,1,0,0,0,0,Game.exe
+LoadFile,1,0,0,0.32,0,Game.exe
+constfolding,8,0,0,0,0,Game.exe
+ProcessGOFileJob::ReadFloatArray,6,0,0,0,0,Game.exe
+__scrt_get_show_window_mode,1,0,0,0,0,Game.exe
+__scrt_is_managed_app,1,0,0,0,0,Game.exe
+[d3d11.dll],1,0,0,0,0,d3d11.dll
+luaH_getint,14,0,0,0,0,Game.exe
+findindex,16,0,0,0,0,Game.exe
+Engine::Physics::ShutDown,1,0,0,0,0,Game.exe
+traversethread,4,0,0,0,0,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+patchlistaux,44,0,0,0,0,Game.exe
+[d3d11.dll],1,0,0,0,0,d3d11.dll
+inclinenumber,26,0,0,0,0,Game.exe
+GLib::Input::Initialize,1,0,0,0.03,0,Game.exe
+"std::vector<PhysicsInfo * __ptr64,std::allocator<PhysicsInfo * __ptr64> >::_Reallocate",5,0,0,0,0,Game.exe
+discharge2reg,23,0,0,0,0,Game.exe
+WeakPtr_UnitTest,1,0,0,0,0,Game.exe
+l_str2int,16,0,0,0,0,Game.exe
+mainposition,15,0,0,0,0,Game.exe
+__isa_available_init,1,0,0,0,0,Game.exe
+lua_gettable,12,0,0,0,0,Game.exe
+lua_next,16,0,0,0,0,Game.exe
+enterlevel,34,0,0,0,0,Game.exe
+"std::vector<SmartPtr<GameObject>,std::allocator<SmartPtr<GameObject> > >::_Tidy",1,0,0,0,0,Game.exe
+luaT_init,1,0,0,0.01,0,Game.exe
+GLib::CreateTexture,2,0,0,0.43,0,Game.exe
+createsearcherstable,1,0,0,0,0,Game.exe
+"std::_Wrap_alloc<std::allocator<Engine::Delegate<unsigned int,bool> > >::deallocate",3,0,0,0,0,Game.exe
+DirectX::CreateDDSTextureFromMemoryEx,2,0,0,0.43,0,Game.exe
+suffixedexp,2,0,0,0.01,0,Game.exe
+luaopen_utf8,1,0,0,0,0,Game.exe
+GLib::DrawResourcesBuffer::AddNewData,2,0,0,0.05,0,Game.exe
+GetStartupInfoW,1,0,0,0,0,KERNEL32.DLL
+luaD_poscall,15,0,0,0,0,Game.exe
+discharge2reg,10,0,0,0,0,Game.exe
+[d3d11.dll],1,0,0,0,0,d3d11.dll
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+statement,1,0,0,0.14,0,Game.exe
+[d3d11.dll],1,0,0,0,0,d3d11.dll
+GetModuleHandleW,1,0,0,0,0,KERNEL32.DLL
+"std::deque<Engine::JobSystem::IJob * __ptr64,std::allocator<Engine::JobSystem::IJob * __ptr64> >::_Growmap",1,0,0,0,0,Game.exe
+restartcollection,2,0,0,0,0,Game.exe
+PhysicsInfo::PhysicsInfo,5,0,0,0,0,Game.exe
+Engine::Math::Matrix::Determinant,10,0,0,0,0,Game.exe
+close_func,1,0,0,0,0,Game.exe
+simpleexp,9,0,0,0,0,Game.exe
+BitsPerPixel,4,0,0,0,0,Game.exe
+singlestep,2,0,0,0,0,Game.exe
+LoadGOFileJob::`scalar deleting destructor',1,0,0,0,0,Game.exe
+lua_pushstring,13,0,0,0,0,Game.exe
+discharge2reg,9,0,0,0,0,Game.exe
+"std::vector<SmartPtr<GameObject>,std::allocator<SmartPtr<GameObject> > >::_Reserve",2,0,0,0,0,Game.exe
+io_noclose,3,0,0,0,0,Game.exe
+Engine::Math::MatrixSSE::Invert,1,0,0,0,0,Game.exe
+moveresults,15,0,0,0,0,Game.exe
+luaO_arith,4,0,0,0,0,Game.exe
+__security_init_cookie,1,0,0,0,0,Game.exe
+[dxgi.dll],1,0,0,0,0,dxgi.dll
+explist,1,0,0,0.11,0,Game.exe
+"std::vector<SmartPtr<GameObject>,std::allocator<SmartPtr<GameObject> > >::_Reallocate",2,0,0,0,0,Game.exe
+close_state,1,0,0,0.09,0,Game.exe
+GetSurfaceInfo,2,0,0,0,0,Game.exe
+createmeta,1,0,0,0.01,0,Game.exe
+ProcessGOFileJob::`scalar deleting destructor',1,0,0,0,0,Game.exe
+freeobj,5,0,0,0,0,Game.exe
+strrchr,2,0,0,0,0,VCRUNTIME140.dll
+str_checkname,15,0,0,0,0,Game.exe
+GetSurfaceInfo,2,0,0,0,0,Game.exe
+save,24,0,0,0,0,Game.exe
+Engine::Physics::AddPhysicsObject,2,0,0,0,0,Game.exe
+Engine::JobSystem::RunJob,2,0,0,0,0,Game.exe
+luaL_prepbuffsize,18,0,0,0,0,Game.exe
+Engine::Rendering::RenderInfo::RenderInfo,2,0,0,0,0,Game.exe
+RtlInitializeCriticalSection,2,0,0,0,0,ntdll.dll
+"std::vector<Engine::Delegate<unsigned int,bool>,std::allocator<Engine::Delegate<unsigned int,bool> > >::_Reserve",1,0,0,0,0,Game.exe
+Engine::Rendering::ShutDown,1,0,0,0,0,Game.exe
+"std::deque<Engine::JobSystem::IJob * __ptr64,std::allocator<Engine::JobSystem::IJob * __ptr64> >::push_back",2,0,0,0,0,Game.exe
+luaZ_fill,2,0,0,0,0,Game.exe
+setprogdir,2,0,0,0.01,0,Game.exe
+luaF_initupvals,1,0,0,0,0,Game.exe
+luaT_gettm,5,0,0,0,0,Game.exe
+simpleexp,12,0,0,0,0,Game.exe
+__acrt_iob_func,3,0,0,0,0,ucrtbase.dll
+"std::vector<Engine::JobSystem::JobRunnerData * __ptr64,std::allocator<Engine::JobSystem::JobRunnerData * __ptr64> >::_Tidy",1,0,0,0,0,Game.exe
+"Engine::MultiCastDelegate<unsigned int,bool>::RemoveDelegate",1,0,0,0,0,Game.exe
+lua_checkstack,12,0,0,0,0,Game.exe
+sweeptolive,2,0,0,0,0,Game.exe
+luaF_freeproto,1,0,0,0,0,Game.exe
+"std::vector<Engine::Delegate<unsigned int,bool>,std::allocator<Engine::Delegate<unsigned int,bool> > >::_Reallocate",1,0,0,0,0,Game.exe
+luaL_setmetatable,3,0,0,0,0,Game.exe
+luaH_setint,18,0,0,0,0,Game.exe
+makeseed,1,0,0,0.01,0,Game.exe
+luaL_newmetatable,1,0,0,0,0,Game.exe
+lua_rotate,12,0,0,0,0,Game.exe
+setpause,2,0,0,0,0,Game.exe
+newprefile,3,0,0,0,0,Game.exe
+getS,2,0,0,0,0,Game.exe
+luaK_intK,4,0,0,0,0,Game.exe
+"std::_Uninitialized_move_al_unchecked1<SmartPtr<GameObject> * __ptr64,SmartPtr<GameObject> * __ptr64,std::allocator<SmartPtr<GameObject> > >",2,0,0,0,0,Game.exe
+lua_touserdata,9,0,0,0,0,Game.exe
+luaS_createlngstrobj,4,0,0,0,0,Game.exe
+dothecall,4,0,0,0,0,Game.exe
+lua_rawsetp,1,0,0,0.01,0,Game.exe
+luaS_init,1,0,0,0.01,0,Game.exe
+"std::_Tree<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::_Insert_hint<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> & __ptr64,std::_Tree_node<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64>,void * __ptr64> * __ptr64>",1,0,0,0,0,Game.exe
+freeLclosure,1,0,0,0,0,Game.exe
+luaK_numberK,12,0,0,0,0,Game.exe
+simpleexp,4,0,0,0,0,Game.exe
+singlestep,3,0,0,0,0,Game.exe
+freeobj,3,0,0,0,0,Game.exe
+singlevaraux,3,0,0,0,0,Game.exe
+atexit,2,0,0,0,0,Game.exe
+PlayerController::PlayerController,1,0,0,0,0,Game.exe
+lua_getmetatable,9,0,0,0,0,Game.exe
+runafewfinalizers,3,0,0,0,0,Game.exe
+freeobj,4,0,0,0,0,Game.exe
+f_call,1,0,0,0.02,0,Game.exe
+QueryPerformanceFrequency,1,0,0,0,0,KERNEL32.DLL
+codeexpval,4,0,0,0,0,Game.exe
+clearvalues,8,0,0,0,0,Game.exe
+luaK_setlist,5,0,0,0,0,Game.exe
+GetDXGIFormat,2,0,0,0,0,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+Engine::Rendering::AddRenderable,2,0,0,0,0,Game.exe
+entersweep,2,0,0,0,0,Game.exe
+lua_pushlstring,2,0,0,0,0,Game.exe
+"std::vector<void * __ptr64,std::allocator<void * __ptr64> >::_Reallocate",2,0,0,0,0,Game.exe
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+[d3d11.dll],2,0,0,0,0,d3d11.dll
+luaC_checkfinalizer,4,0,0,0,0,Game.exe
+newupvalue,1,0,0,0,0,Game.exe
+"std::_Tree<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::erase",1,0,0,0,0,Game.exe
+luaK_storevar,1,0,0,0,0,Game.exe
+GLib::GetDimensions,2,0,0,0,0,Game.exe
+createmetatable,1,0,0,0,0,Game.exe
+lua_len,1,0,0,0,0,Game.exe
+[dxgi.dll],2,0,0,0,0,dxgi.dll
+singlestep,2,0,0,0,0,Game.exe
+luaD_shrinkstack,2,0,0,0,0,Game.exe
+stack_init,1,0,0,0,0,Game.exe
+__scrt_acquire_startup_lock,1,0,0,0,0,Game.exe
+"std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >",3,0,0,0,0,Game.exe
+block_follow,2,0,0,0,0,Game.exe
+"std::vector<SmartPtr<GameObject>,std::allocator<SmartPtr<GameObject> > >::push_back",2,0,0,0,0,Game.exe
+luaV_objlen,1,0,0,0,0,Game.exe
+"std::_Tree_comp_alloc<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::_Buynode<std::piecewise_construct_t const & __ptr64,std::tuple<Engine::HashedString const & __ptr64>,std::tuple<> >",1,0,0,0,0,Game.exe
+leaveblock,1,0,0,0,0,Game.exe
+discharge2reg,4,0,0,0,0,Game.exe
+"std::_Tree<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::_Insert_at<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> & __ptr64,std::_Tree_node<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64>,void * __ptr64> * __ptr64>",1,0,0,0,0,Game.exe
+Engine::GameObjectStore::AddGameObject,2,0,0,0,0,Game.exe
+lua_pcallk,1,0,0,0.02,0,Game.exe
+singlestep,2,0,0,0,0,Game.exe
+luaE_shrinkCI,2,0,0,0,0,Game.exe
+RtlInitializeConditionVariable,1,0,0,0,0,ntdll.dll
+singlestep,2,0,0,0,0,Game.exe
+luaF_close,1,0,0,0,0,Game.exe
+[dxgi.dll],1,0,0,0,0,dxgi.dll
+luaD_reallocstack,1,0,0,0,0,Game.exe
+simpleexp,4,0,0,0,0,Game.exe
+"std::vector<void * __ptr64,std::allocator<void * __ptr64> >::push_back",2,0,0,0,0,Game.exe
+"std::_Tree<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::_Erase",1,0,0,0,0,Game.exe
+"std::deque<Engine::JobSystem::IJob * __ptr64,std::allocator<Engine::JobSystem::IJob * __ptr64> >::begin",2,0,0,0,0,Game.exe
+Engine::ControllerStore::AddController,1,0,0,0,0,Game.exe
+convergeephemerons,4,0,0,0,0,Game.exe
+_RTC_Terminate,1,0,0,0,0,Game.exe
+l_hashfloat,12,0,0,0,0,Game.exe
+std::`dynamic atexit destructor for '_Fac_tidy_reg'',1,0,0,0,0,Game.exe
+correctstack,1,0,0,0,0,Game.exe
+lua_createtable,1,0,0,0,0,Game.exe
+singlestep,2,0,0,0,0,Game.exe
+_RTC_Initialize,1,0,0,0,0,Game.exe
+clearkeys,4,0,0,0,0,Game.exe
+luaH_getn,1,0,0,0,0,Game.exe
+luaX_setinput,1,0,0,0,0,Game.exe
+codestring,4,0,0,0,0,Game.exe
+[d3d11.dll],1,0,0,0,0,d3d11.dll
+remarkupvals,2,0,0,0,0,Game.exe
+"std::_Tree_comp_alloc<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::_Buyheadnode",1,0,0,0,0,Game.exe
+[dxgi.dll],1,0,0,0,0,dxgi.dll
+luaE_freeCI,1,0,0,0,0,Game.exe
+freeobj,1,0,0,0,0,Game.exe
+freeobj,1,0,0,0,0,Game.exe
+__scrt_initialize_onexit_tables,1,0,0,0,0,Game.exe
+__scrt_release_startup_lock,1,0,0,0,0,Game.exe
+Engine::Math::MatrixSSE::Transpose,1,0,0,0,0,Game.exe
+"std::_Tree_comp_alloc<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::_Buynode0",1,0,0,0,0,Game.exe
+"std::_Tree<std::_Tmap_traits<Engine::HashedString,Engine::JobSystem::JobQueueData * __ptr64,std::less<Engine::HashedString>,std::allocator<std::pair<Engine::HashedString const ,Engine::JobSystem::JobQueueData * __ptr64> >,0> >::clear",1,0,0,0,0,Game.exe
+luaF_newproto,1,0,0,0,0,Game.exe
+post_pgo_initialization,1,0,0,0,0,Game.exe
+"std::_Uninitialized_move_al_unchecked1<Engine::Delegate<unsigned int,bool> * __ptr64,Engine::Delegate<unsigned int,bool> * __ptr64,std::allocator<Engine::Delegate<unsigned int,bool> > >",1,0,0,0,0,Game.exe
+"std::vector<Engine::Delegate<unsigned int,bool>,std::allocator<Engine::Delegate<unsigned int,bool> > >::push_back",1,0,0,0,0,Game.exe
+lua_pushvalue,1,0,0,0,0,Game.exe
