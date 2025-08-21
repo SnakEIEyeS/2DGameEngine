@@ -1,0 +1,55 @@
+x86 -
+Profiled Name: Collision Detection non-SSE function - 
+Total Time Taken: 88.0729
+Number of Times Run : 288702
+Minimum Execution Time : 0
+Maximum Execution Time : 0.0916107
+Average Execution Time : 0.000305065
+
+Profiled Name: Collision Detection SSE function - 
+Total Time Taken: 91.5487
+Number of Times Run : 261555
+Minimum Execution Time : 0
+Maximum Execution Time : 0.0768445
+Average Execution Time : 0.000350017
+
+x64 -
+Profiled Name: Collision Detection non-SSE function - 
+Total Time Taken: 57.5665
+Number of Times Run : 275535
+Minimum Execution Time : 0
+Maximum Execution Time : 0.0964324
+Average Execution Time : 0.000208926
+
+Profiled Name: Collision Detection SSE function - 
+Total Time Taken: 81.0276
+Number of Times Run : 268326
+Minimum Execution Time : 0
+Maximum Execution Time : 0.0949256
+Average Execution Time : 0.000301974
+
+
+Visual Studio Instrumentation Results -
+
+Non-SSE - Function Name				Times Run	Incl Time%	Excl Time%	Avg Incl Time	Avg Excl Time
+Engine::Physics::CollisionRun,			118,365		7.78		2.36		0.04		0.01
+Engine::Collision::CollisionDetection		118,374		1.64		1.02		0.01		0.01
+
+
+SSE - Function Name				Times Run	Incl Time%	Excl Time%	Avg Incl Time	Avg Excl Time
+Engine::Physics::CollisionRunSSE		108,913		9.99		1.89		0.06		0.01
+Engine::Collision::CollisionDetectionSSE	108,913		2.1		1.84		0.01		0.01
+
+Profiled Name: Collision Detection non-SSE function - 
+Total Time Taken: 196.237
+Number of Times Run : 1694346
+Minimum Execution Time : 0
+Maximum Execution Time : 0.124157
+Average Execution Time : 0.000115819
+
+Profiled Name: Collision Detection non-SSE function - 
+Total Time Taken: 155.461
+Number of Times Run : 912006
+Minimum Execution Time : 0
+Maximum Execution Time : 0.0928161
+Average Execution Time : 0.00017046
